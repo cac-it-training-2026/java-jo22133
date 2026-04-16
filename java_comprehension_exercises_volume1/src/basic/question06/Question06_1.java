@@ -7,6 +7,13 @@ public class Question06_1 {
 	public static void main(String[] args) throws IOException {
 
 		// TODO:ここに実装
-		
+
+		String[] messages = { "こんにちは", "Java学習中", "繰り返しの練習中", "頑張ります" };
+
+		for (int i = 0; i < 4; i++) {
+			System.out.println(messages[i]);
+
+		}
+
 	}
 }
